@@ -1,3 +1,8 @@
+html {
+    background-color: aquamarine;
+    background-size: fill;
+}
+
 body {
     height: fill-available;
     width: fill-available;
@@ -6,4 +11,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Arizonia, Helvetica, sans-serif';
+    color:gold
 }

@@ -10,6 +10,9 @@ button2.innerText = 'Paper';
 button3.innerText = 'Scissors';
 start.innerText = 'Start Game';
 
+start.setAttribute('style', 'height: 70px; width: 200px; margin: 20px; border-radius: 8px; font-weight: bold;');
+buttonDiv.setAttribute('style', 'display: flex; gap: 20px; margin: 20px;');
+
 body.appendChild(start);
 body.appendChild(buttonDiv);
 buttonDiv.appendChild(button1);
@@ -18,11 +21,21 @@ buttonDiv.appendChild(button3);
 
 const buttons = buttonDiv.querySelectorAll('button');
 
+button1.setAttribute('style', 
+    'font-size:0px; height: 200px; width: 200px; border-radius: 8px; background-image: url(https://cdn-icons-png.flaticon.com/512/10163/10163183.png); background-size: cover; background-color: transparent;');
+button2.setAttribute('style', 
+    'font-size:0px; height: 200px; width: 200px; border-radius: 8px; background-image: url(https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png); background-size: cover; background-color: transparent;');
+button3.setAttribute('style', 
+    'font-size:0px; height: 200px; width: 200px; border-radius: 8px; background-image: url(https://cdn.icon-icons.com/icons2/3045/PNG/512/scissors_cutter_fabric_scissors_pincer_tailor_scissors_icon_189321.png); background-size: cover; background-color: transparent;');
+
 const div = document.createElement('div');
 body.appendChild(div);
+div.setAttribute('style', 'font-size: 20px; font-weight: bold; margin: 20px; color: magenta;');
 
 const liveScore = document.createElement('div');
 body.appendChild(liveScore);
+liveScore.setAttribute('style', 'font-size: 20px; font-weight: bold; margin: 20px; color: magenta;');
+
 
 let humanScore = 0;
 let computerScore = 0;
