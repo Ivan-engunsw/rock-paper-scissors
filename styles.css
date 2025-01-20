@@ -1,0 +1,9 @@
+body {
+    height: fill-available;
+    width: fill-available;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

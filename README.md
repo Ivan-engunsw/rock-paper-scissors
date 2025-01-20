@@ -1,2 +1,2 @@
 # rock-paper-scissors
-This is a basic implementation of the rock paper scissors game using Javascript. The user inputs through the prompt and the results are shown in the console section upon inspecting the page in the browser.
+This is a basic implementation of the rock paper scissors game using Javascript. The user inputs through the buttons named 'rock', 'paper' and 'scissors' and the results are shown in text below the buttons.
